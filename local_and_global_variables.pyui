@@ -1,0 +1,86 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Global variable",
+          "name" : "global_button",
+          "action" : "global_button_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "7E002D2E-2F68-4440-9115-3096A4BCC7BB"
+        },
+        "frame" : "{{282, 105}, {192, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Local variable",
+          "name" : "local_button",
+          "action" : "local_button_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "C69A1375-D6FC-419C-B90A-68F02E931811"
+        },
+        "frame" : "{{63, 105}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "local_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "E71C17C8-2DAB-4936-9BB9-0880A721ED61"
+        },
+        "frame" : "{{63, 179}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "global_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BF11B0F4-B611-4867-A8D6-9DE9683EE03D"
+        },
+        "frame" : "{{282, 179}, {192, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
